@@ -1,0 +1,3 @@
+File_Name = input('Input the file name: ')
+File_Extension = File_Name.split('.')
+print('The extension of the file is: {}.'.format(repr(File_Extension[-1])))
