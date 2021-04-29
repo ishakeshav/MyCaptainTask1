@@ -1,0 +1,11 @@
+a = 0
+b = 1
+k = 0
+num = input('To find fibonacci series of first what numbers: ')
+n = int(num)
+while k < n:
+       print(a)
+       s = a + b
+       a = b
+       b = s
+       k += 1
