@@ -1,0 +1,10 @@
+list1 = [12, -7, 5, 64, -14]
+for e in list1:
+    if int(e) > 0:
+        print(e)
+
+
+list2 = [12, 14, -95, 3]
+for i in list2:
+    if int(i) > 0:
+        print(i)
