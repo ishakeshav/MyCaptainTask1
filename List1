@@ -1,0 +1,6 @@
+list1 = [12, -7, 5, 64, -14]
+for e in list1:
+    if int(e) > 0:
+        print(e, end = ", ")
+
+
