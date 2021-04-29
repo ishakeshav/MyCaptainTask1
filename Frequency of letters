@@ -1,0 +1,7 @@
+string = input('Enter the string: ')
+freq = {}
+
+for keys in string:
+    freq[keys] = freq.get(keys, 0) + 1
+
+print(str(freq))
